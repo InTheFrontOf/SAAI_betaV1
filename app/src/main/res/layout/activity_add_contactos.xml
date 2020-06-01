@@ -71,6 +71,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#da2244"
         android:clickable="true"
+        android:onClick="in"
         android:tint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

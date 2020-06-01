@@ -7,12 +7,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class AddContactos extends AppCompatActivity {
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+public class AddContactos extends AppCompatActivity {
+     private FloatingActionButton floatingActionButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_contactos);
+        floatingActionButton = (FloatingActionButton)findViewById(R.id.floatingActionButton);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDialog();
+            }
+        });
+    }
+    public void openDialog(){
+        DialogID dialogID = new DialogID();
+        dialogID.show(getSupportFragmentManager(),"ID dialog");
     }
 
     public void in(View v)
