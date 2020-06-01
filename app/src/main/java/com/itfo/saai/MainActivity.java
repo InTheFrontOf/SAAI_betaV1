@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,RegisterActivity.class);
         startActivity(i);
     }
+    public void OpAlert(View v)
+    {
+        Intent j = new Intent(this,Alerta.class);
+        startActivity(j);
+    }
 }

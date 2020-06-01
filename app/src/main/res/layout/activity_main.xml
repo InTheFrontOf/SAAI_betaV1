@@ -25,6 +25,7 @@
         android:layout_width="353dp"
         android:layout_height="50dp"
         android:backgroundTint="#FFFFFF"
+        android:onClick="OpAlert"
         android:text="INICIAR SESIÓN"
         android:textColor="#C8000000"
         app:layout_constraintBottom_toBottomOf="parent"
