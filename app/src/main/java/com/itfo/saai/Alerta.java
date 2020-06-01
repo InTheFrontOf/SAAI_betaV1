@@ -29,4 +29,8 @@ public class Alerta extends AppCompatActivity {
         Intent j = new Intent(this, Alerta.class);
         startActivity(j);
     }
+    public void porfile(View v){
+        Intent porfile = new Intent(this,PorfileActivity.class);
+        startActivity(porfile);
+    }
 }

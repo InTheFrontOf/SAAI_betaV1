@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".AddContactos"></activity>
-        <activity android:name=".Alerta" />
+        <activity android:name=".PorfileActivity" android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".AddContactos"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Alerta"
+            android:theme="@style/AppTheme" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SplashActivity">

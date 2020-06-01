@@ -28,4 +28,8 @@ public class AddContactos extends AppCompatActivity {
     {
         Toast.makeText(this,"Email: itfo.0126@gmail.com",Toast.LENGTH_LONG).show();
     }
+    public void p(View v) {
+        Intent p = new Intent(this, PorfileActivity.class);
+        startActivity(p);
+    }
 }

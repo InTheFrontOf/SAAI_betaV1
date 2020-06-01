@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E0F0F8"
+    android:background="#FFFFFF"
     tools:context=".Alerta">
 
     <ImageView
@@ -19,76 +19,65 @@
         app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/alertaimg" />
 
-    <Button
-        android:id="@+id/button"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:layout_width="164dp"
-        android:layout_height="76dp"
-        android:background="#E0F0F8"
-        android:onClick="ini"
-        android:text="INICIO"
-        android:textAllCaps="true"
-        android:textColor="#F44336"
-        android:textSize="24sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974" />
-
-    <Button
-        android:id="@+id/btnContactos"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:layout_width="173dp"
-        android:layout_height="75dp"
-        android:background="#E0F0F8"
-        android:onClick="contac"
-        android:text="CONTACTOS"
-        android:textAllCaps="true"
-        android:textColor="#F44336"
-        android:textSize="24sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972" />
-
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/TvUbic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PULSA EL BOTON PARA PEDIR AYUDA"
+        android:text="Ubicacion..."
         android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="#F44336"
-        android:textSize="36sp"
-        android:textStyle="bold|italic"
+        android:textAllCaps="false"
+        android:textColor="#4E4C4C"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="140dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#da2244"
+        android:scaleType="fitCenter"
+        android:tint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="135dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#da2244"
+        android:onClick="contac"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/contacto" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="135dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#da2244"
+        android:onClick="porfile"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="146dp"
-        android:layout_height="33dp"
-        android:onClick="crrar"
-        android:text="CERRAR SESION"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="#F44336"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/porfile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
