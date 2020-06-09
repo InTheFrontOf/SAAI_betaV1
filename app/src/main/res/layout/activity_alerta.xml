@@ -8,7 +8,7 @@
     tools:context=".Alerta">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/AlertView"
         android:layout_width="282dp"
         android:layout_height="328dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/alertaimg" />
 
     <TextView
-        android:id="@+id/TvUbic"
+        android:id="@+id/TvUbicacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ubicacion..."
