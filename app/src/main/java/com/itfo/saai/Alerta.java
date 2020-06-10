@@ -102,21 +102,12 @@ public class Alerta extends AppCompatActivity {
         }
     }
 
-    public void crrar(View v)
-    {
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
-    }
     public void contac(View v)
     {
         Intent a = new Intent(this, AddContactos.class);
         startActivity(a);
     }
-    public void ini(View v)
-    {
-        Intent j = new Intent(this, Alerta.class);
-        startActivity(j);
-    }
+
     public void porfile(View v){
         Intent porfile = new Intent(this,PorfileActivity.class);
         startActivity(porfile);
